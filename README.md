@@ -1,5 +1,7 @@
 ### Hi there 👋
 
+I manly work with React, ES6 and Python3, from top to bottom...
+
 <!--
 **bacchilu/bacchilu** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
