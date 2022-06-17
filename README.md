@@ -16,3 +16,28 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+
+```python3
+from dataclasses import dataclass
+from enum import Enum
+
+
+class Position(Enum):
+    SW_ENGINEER = "Software Engineer"
+    SW_ARCHITECT = "Software Architect"
+
+
+@dataclass
+class ContactInfo:
+    email: str
+    phone: str
+
+
+@dataclass
+class Me:
+    full_name: str = "Luca Bacchi"
+    contact: ContactInfo = ContactInfo(email="bacchilu@gmail.com", phone="+39 347 4846411")
+    position: Position.SW_ENGINEER | Position.SW_ARCHITECT
+    github: str = "https://github.com/bacchilu"
+    skills: list[str] = ["Python3", "ReactJS"]
+```
