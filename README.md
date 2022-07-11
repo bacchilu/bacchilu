@@ -37,7 +37,7 @@ class ContactInfo:
 class Me:
     full_name: str = "Luca Bacchi"
     contact: ContactInfo = ContactInfo(email="bacchilu@gmail.com", phone="+39 347 4846411")
-    position: Position.SW_ENGINEER | Position.SW_ARCHITECT
+    position: Position
     github: str = "https://github.com/bacchilu"
     skills: list[str] = ["Python3", "ReactJS"]
 ```
