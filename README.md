@@ -35,9 +35,18 @@ class ContactInfo:
 
 @dataclass
 class Me:
-    full_name: str = "Luca Bacchi"
-    contact: ContactInfo = ContactInfo(email="bacchilu@gmail.com", phone="+39 347 4846411")
-    position: Position = Position.SW_ENGINEER
-    github: str = "https://github.com/bacchilu"
-    skills: list[str] = ["Python3", "ReactJS"]
+    full_name: str
+    contact: ContactInfo
+    position: list[Position]
+    github: str
+    skills: list[str]
+
+
+io = Me(
+    full_name="Luca Bacchi",
+    contact=ContactInfo(email="bacchilu@gmail.com", phone="+39 347 4846411"),
+    position=[Position.SW_ENGINEER, Position.SW_ARCHITECT],
+    github="https://github.com/bacchilu",
+    skills=["Python3", "ReactJS"],
+)
 ```
