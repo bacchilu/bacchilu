@@ -47,6 +47,6 @@ io = Me(
     contact=ContactInfo(email="bacchilu@gmail.com", phone="+39 347 484 6411"),
     position=[Position.SW_ENGINEER, Position.SW_ARCHITECT],
     github="https://github.com/bacchilu",
-    skills=["Python3", "ReactJS"],
+    skills=["Python", "ReactJS", "Docker"],
 )
 ```
