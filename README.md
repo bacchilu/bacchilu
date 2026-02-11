@@ -10,5 +10,5 @@
 - Docker/Docker Compose & CI/CD
 
 ## 📫 Connect
-LinkedIn: https://linkedin.com/in/yourprofile  
+LinkedIn: https://linkedin.com/in/bacchilu  
 Website: https://bacchilu.github.io
